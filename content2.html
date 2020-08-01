@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+    <script type="text/javascript" src="bootstrap/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="budget.css">
+    <style>
+
+      .panel-default > .panel-heading{
+          background-color: #2E8B57;
+          color: #ffffff;
+      }
+      .glyphicon-plus-sign{
+          color: #2E8B57;
+      }
+      h1{
+          float: right;
+          padding-right: 40px;
+      }
+      @media(max-width:767px){ .s1{
+                  padding-left: 80px;
+      }
+    }
+
+  </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed">
+        <div class="navbar">
+            <div class="website">
+                <div class="navbar-header">
+                      <a href="#" class="navbar-brand">Ct<i class="fa fa-inr"></i>l Budget</a>
+                      <button type="button" class="navbar-toggle" data-toggle="collapse"
+                             data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                      </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href = "setting.html"><span class = "glyphicon glyphicon-user"></span>
+                          Change password</a></li>
+                         <li><a href = "index.html"><span class = "glyphicon glyphicon-log-in"></span> Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron content2">
+          <div class="container">
+              <div class="row row_style">
+                  <div class="col-md-5 col-lg-4 col-sm-8 col-xs-12">
+                      <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-sm-10  col-xs-9">
+                                    <center>
+                                      <h2>My First Plan</h2>
+                                    </center>
+                                </div>
+                                <div class="col-sm-2 col-xs-3">
+                                    <h3><span class="glyphicon glyphicon-user">2</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                              <div class="row">
+                                  <div class="col-xs-8">
+                                        <p><b>Budget:</b></p>
+                                  </div>
+                                  <div class="col-xs-4">
+                                        <p>10000</p>
+                                  </div>
+                                  <div class="col-md-4 col-sm-5 col-xs-3">
+                                      <p><b>Date:</b></p>
+                                  </div>
+                              <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 s1">
+                                  <p>20th-30th Sept 2019</p>
+                              </div>
+                          </div>
+                          <a href="viewplan.html">
+                            <input type="button" value="View Plan" class="form-control btn btn-toolbar">
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                </div><br>
+              </div>
+              <div class="row">
+                <div class="col-md-11 col-xs-9">
+                </div>
+                <div class="col-md-1 col-xs-3">
+                    <h1><span class="glyphicon glyphicon-plus-sign"></span></h1>
+                </div>
+              </div>
+        </div>
+        <footer class="footer">
+               <div class="website">
+                   <small>
+                       <p>Copyright <span class="glyphicon glyphicon-copyright-mark"></span>
+                       Copyright © Control Budget. All Rights Reserved|Contact Us: +91-8448444853.</p>
+                   </small>
+               </div>
+        </footer>
+  </body>
+</html>

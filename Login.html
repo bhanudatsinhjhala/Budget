@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+    <script type="text/javascript" src="bootstrap/js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="budget.css">
+    <style>
+
+      .panel-heading{
+                  padding-top: 1px;
+      }
+
+      @media(max-width:767px){
+
+           .row_style{
+             display:flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+           }
+      }
+
+      a{
+        color: #fff;
+        text-decoration: none;
+      }
+
+      a:hover{
+        color: #fff;
+        text-decoration: none;
+      }
+      .footer{
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed">
+        <div class="navbar">
+            <div class="website">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">Ct<i class="fa fa-inr"></i>l Budget</a>
+                      <button type="button" class="navbar-toggle" data-toggle="collapse"
+                              data-target="#myNavbar">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="aboutus.html"><span class="glyphicon glyphicon-info-sign"></span>
+                        About us</a></li>
+                        <li><a href="Signup.html"><span class="glyphicon glyphicon-user"></span>
+                        Sign Up</a></li>
+                        <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span>
+                        Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container login">
+        <div class="row row_style">
+            <div class="col-md-4  col-xs-11 col-sm-offset-3 col-sm-6 col-md-offset-4 s1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <center> <h3>Login</h3></center>
+                    </div>
+                    <div class="panel-body">
+                        <form class="form-group">
+                            <label>Email:</label>
+                            <input type="email" name="email" class="form-control" placeholder="E-mail" required><br>
+                            <label>Password:</label>
+                            <input type="password" name="pass" class="form-control" placeholder="password"><br><br><br>
+                            <a href="content.html"><input type="button" class="btn form-control" value="Login"></a><br><br>
+                        </form>
+                    </div>
+                    <div class="panel-footer">
+                      <p>Don't have account? Click <a href="Signup.html" target="_blank"> here </a> to Sign Up</p>
+                    </div>
+              </div>
+          </div>
+       </div>
+    </div>
+    <footer class="footer">
+           <div class="website">
+               <small>
+                   <p>Copyright <span class="glyphicon glyphicon-copyright-mark"></span>
+                   Copyright © Control Budget. All Rights Reserved|Contact Us: +91-8448444853.</p>
+               </small>
+           </div>
+    </footer>
+  </body>
+</html>
