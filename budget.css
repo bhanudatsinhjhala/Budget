@@ -39,6 +39,11 @@ btn:hover{
    padding-top: 10px;
    font-size: 20px;
  }
+
+.footer p{
+    margin:0;
+}
+
  .red{
   padding-right: 20px;
  }
